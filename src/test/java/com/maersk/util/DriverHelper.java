@@ -12,18 +12,20 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.Reporter;
+
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 
 
 public abstract class DriverHelper {
 	
-	private AndroidDriver driver;
-	public DriverHelper(AndroidDriver androidDriver) {
+	private AndroidDriver<MobileElement> driver;
+	public DriverHelper(AndroidDriver<MobileElement> androidDriver) {
 		driver = androidDriver;
 		
 	}
 	
-	public AndroidDriver getDriver(){
+	public AndroidDriver<MobileElement> getDriver(){
 		return driver;
 	}
 	

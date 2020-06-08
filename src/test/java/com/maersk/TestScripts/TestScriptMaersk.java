@@ -32,7 +32,7 @@ public class TestScriptMaersk extends DriverTestCase {
 		
 		maerskPageHelper.getResultCount();
 
-		
+		maerskPageHelper.getSailingsName();
 
 	}
 

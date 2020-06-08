@@ -5,25 +5,25 @@
       <![CDATA[<font color='blue'>Start execution of Test Method 'searchForShipment'</font>]]>
     </line>
     <line>
-      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\landingScreen08-16-20-12-16-58.png" alt="" width='300' height='500'/>]]>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\landingScreen08-08-20-02-08-58.png" alt="" width='300' height='500'/>]]>
     </line>
     <line>
       <![CDATA[<font color='green'>Tap on 'Schedule' tab.</font>]]>
     </line>
     <line>
-      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\fromfield08-17-20-12-17-01.png" alt="" width='300' height='500'/>]]>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\fromfield08-09-20-02-09-01.png" alt="" width='300' height='500'/>]]>
     </line>
     <line>
       <![CDATA[<font color='green'>Tap on 'From' field.</font>]]>
     </line>
     <line>
-      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\searchField108-17-20-12-17-03.png" alt="" width='300' height='500'/>]]>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\searchField108-09-20-02-09-03.png" alt="" width='300' height='500'/>]]>
     </line>
     <line>
       <![CDATA[<font color='green'>Enter 'Mundra' into search field.</font>]]>
     </line>
     <line>
-      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\dropList108-17-20-12-17-08.png" alt="" width='300' height='500'/>]]>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\dropList108-09-20-02-09-07.png" alt="" width='300' height='500'/>]]>
     </line>
     <line>
       <![CDATA[<font color='green'>Tap on 'Mundra, GUJARAT' location from list.</font>]]>
@@ -32,13 +32,13 @@
       <![CDATA[<font color='green'>Tap on 'To' field.</font>]]>
     </line>
     <line>
-      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\searchField108-17-20-12-17-11.png" alt="" width='300' height='500'/>]]>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\searchField108-09-20-02-09-10.png" alt="" width='300' height='500'/>]]>
     </line>
     <line>
       <![CDATA[<font color='green'>Enter 'Jebel' into search field.</font>]]>
     </line>
     <line>
-      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\dropList108-17-20-12-17-15.png" alt="" width='300' height='500'/>]]>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\dropList108-09-20-02-09-15.png" alt="" width='300' height='500'/>]]>
     </line>
     <line>
       <![CDATA[<font color='green'>Tap on 'Jebel Ali' location from list.</font>]]>
@@ -47,18 +47,30 @@
       <![CDATA[<font color='green'>Tap on 'Search' button.</font>]]>
     </line>
     <line>
-      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\sailings08-17-20-12-17-19.png" alt="" width='300' height='500'/>]]>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\sailingsText08-09-20-02-09-19.png" alt="" width='300' height='500'/>]]>
     </line>
     <line>
-      <![CDATA[Sailings count: Loading sailings for]]>
+      <![CDATA[Sailings count: 4 sailings for]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\sailings08-09-20-02-09-21.png" alt="" width='300' height='500'/>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Available Ship: MARIANETTA 007W</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Available Ship: NORTHERN GENERAL 090W</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Available Ship: MARIANETTA 008W</font>]]>
     </line>
   </reporter-output>
-  <suite name="Maersk" duration-ms="42979" started-at="2020-06-08T06:46:37Z" finished-at="2020-06-08T06:47:20Z">
+  <suite name="Maersk" duration-ms="45509" started-at="2020-06-08T08:38:37Z" finished-at="2020-06-08T08:39:22Z">
     <groups>
     </groups>
-    <test name="HappyPath" duration-ms="42979" started-at="2020-06-08T06:46:37Z" finished-at="2020-06-08T06:47:20Z">
+    <test name="HappyPath" duration-ms="45509" started-at="2020-06-08T08:38:37Z" finished-at="2020-06-08T08:39:22Z">
       <class name="com.maersk.TestScripts.TestScriptMaersk">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="setUp" is-config="true" duration-ms="14980" started-at="2020-06-08T12:16:37Z" finished-at="2020-06-08T12:16:52Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="setUp" is-config="true" duration-ms="16301" started-at="2020-06-08T14:08:37Z" finished-at="2020-06-08T14:08:53Z">
           <params>
             <param index="0">
               <value>
@@ -79,31 +91,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchForShipment()[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="searchForShipment" duration-ms="27975" started-at="2020-06-08T12:16:52Z" finished-at="2020-06-08T12:17:20Z">
+        <test-method status="PASS" signature="searchForShipment()[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="searchForShipment" duration-ms="29177" started-at="2020-06-08T14:08:53Z" finished-at="2020-06-08T14:09:22Z">
           <reporter-output>
             <line>
               <![CDATA[<font color='blue'>Start execution of Test Method 'searchForShipment'</font>]]>
             </line>
             <line>
-              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\landingScreen08-16-20-12-16-58.png" alt="" width='300' height='500'/>]]>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\landingScreen08-08-20-02-08-58.png" alt="" width='300' height='500'/>]]>
             </line>
             <line>
               <![CDATA[<font color='green'>Tap on 'Schedule' tab.</font>]]>
             </line>
             <line>
-              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\fromfield08-17-20-12-17-01.png" alt="" width='300' height='500'/>]]>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\fromfield08-09-20-02-09-01.png" alt="" width='300' height='500'/>]]>
             </line>
             <line>
               <![CDATA[<font color='green'>Tap on 'From' field.</font>]]>
             </line>
             <line>
-              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\searchField108-17-20-12-17-03.png" alt="" width='300' height='500'/>]]>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\searchField108-09-20-02-09-03.png" alt="" width='300' height='500'/>]]>
             </line>
             <line>
               <![CDATA[<font color='green'>Enter 'Mundra' into search field.</font>]]>
             </line>
             <line>
-              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\dropList108-17-20-12-17-08.png" alt="" width='300' height='500'/>]]>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\dropList108-09-20-02-09-07.png" alt="" width='300' height='500'/>]]>
             </line>
             <line>
               <![CDATA[<font color='green'>Tap on 'Mundra, GUJARAT' location from list.</font>]]>
@@ -112,13 +124,13 @@
               <![CDATA[<font color='green'>Tap on 'To' field.</font>]]>
             </line>
             <line>
-              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\searchField108-17-20-12-17-11.png" alt="" width='300' height='500'/>]]>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\searchField108-09-20-02-09-10.png" alt="" width='300' height='500'/>]]>
             </line>
             <line>
               <![CDATA[<font color='green'>Enter 'Jebel' into search field.</font>]]>
             </line>
             <line>
-              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\dropList108-17-20-12-17-15.png" alt="" width='300' height='500'/>]]>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\dropList108-09-20-02-09-15.png" alt="" width='300' height='500'/>]]>
             </line>
             <line>
               <![CDATA[<font color='green'>Tap on 'Jebel Ali' location from list.</font>]]>
@@ -127,14 +139,26 @@
               <![CDATA[<font color='green'>Tap on 'Search' button.</font>]]>
             </line>
             <line>
-              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\sailings08-17-20-12-17-19.png" alt="" width='300' height='500'/>]]>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\sailingsText08-09-20-02-09-19.png" alt="" width='300' height='500'/>]]>
             </line>
             <line>
-              <![CDATA[Sailings count: Loading sailings for]]>
+              <![CDATA[Sailings count: 4 sailings for]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MaerskAssignment\attachedScreenshot\sailings08-09-20-02-09-21.png" alt="" width='300' height='500'/>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Available Ship: MARIANETTA 007W</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Available Ship: NORTHERN GENERAL 090W</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Available Ship: MARIANETTA 008W</font>]]>
             </line>
           </reporter-output>
         </test-method> <!-- searchForShipment -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2020-06-08T12:17:20Z" finished-at="2020-06-08T12:17:20Z">
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="afterEachTestMethod" is-config="true" duration-ms="1" started-at="2020-06-08T14:09:22Z" finished-at="2020-06-08T14:09:22Z">
           <params>
             <param index="0">
               <value>
@@ -145,7 +169,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="aftertest" is-config="true" duration-ms="1" started-at="2020-06-08T12:17:20Z" finished-at="2020-06-08T12:17:20Z">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-06-08T14:09:22Z" finished-at="2020-06-08T14:09:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->

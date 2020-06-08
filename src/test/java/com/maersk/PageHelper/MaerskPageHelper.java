@@ -192,7 +192,7 @@ private LocatorReader locator;
 			
 			WaitForElementPresent(locator.getLocator("homePage.SailingsCount"), 80);
 			
-			attachedToReport("sailings");
+			attachedToReport("sailingsText");
 			
 			Assert.assertTrue(isElementPresent(locator.getLocator("homePage.SailingsCount")), "'Sailing' counts not present.");
 			
@@ -205,6 +205,38 @@ private LocatorReader locator;
 			negativeComment("Error Occurred: "+e.getMessage());
 			
 			Assert.assertTrue(false, e.getMessage());
+		}
+		
+	}
+	
+	public void getSailingsName() throws IOException{
+		
+		try {
+			WaitForElementPresent(locator.getLocator("homePage.ShipNames"), 60);
+			
+			Assert.assertTrue(isElementPresent(locator.getLocator("homePage.ShipNames")), "'Ship' names are not present.");
+			
+			attachedToReport("sailings");
+			
+			List<MobileElement> list_ship = getDriver().findElements(ByLocator(locator.getLocator("homePage.ShipNames")));
+			
+			for (MobileElement ele_ship : list_ship) {
+				
+				if (!ele_ship.getText().trim().equalsIgnoreCase(" ") && !ele_ship.getText().trim().equalsIgnoreCase("")) {
+					
+					positiveComment("Available Ship: "+ele_ship.getText());
+				}
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			
+			attachedToReport("error");
+			
+			negativeComment("Error Occurred: "+e.getMessage());
+			
+			Assert.assertTrue(false, e.getMessage());
+			
 		}
 		
 	}
