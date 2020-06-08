@@ -18,15 +18,15 @@ public class TestScriptMaersk extends DriverTestCase {
 		
 		maerskPageHelper.tapOnFromField();
 		
-		maerskPageHelper.enterTextInToSearchField("Mundra");
+		maerskPageHelper.enterTextInToSearchField(propertyReader.readApplicationFile("source"));
 		
-		maerskPageHelper.selectLocationFromDropDown("Mundra, GUJARAT");
+		maerskPageHelper.selectLocationFromDropDown(propertyReader.readApplicationFile("exactSource"));
 		
 		maerskPageHelper.tapOnToField();
 		
-		maerskPageHelper.enterTextInToSearchField("Jebel");
+		maerskPageHelper.enterTextInToSearchField(propertyReader.readApplicationFile("destination"));
 		
-		maerskPageHelper.selectLocationFromDropDown("Jebel Ali");
+		maerskPageHelper.selectLocationFromDropDown(propertyReader.readApplicationFile("exactDestination"));
 		
 		maerskPageHelper.tapOnSearchButton();
 		
