@@ -33,6 +33,10 @@ public class TestScriptMaersk extends DriverTestCase {
 		maerskPageHelper.getResultCount();
 
 		maerskPageHelper.getSailingsName();
+		
+		maerskPageHelper.verifySourceName(propertyReader.readApplicationFile("exactSource"));
+		
+		maerskPageHelper.verifyDestinationName(propertyReader.readApplicationFile("exactDestination"));
 
 	}
 

@@ -240,4 +240,44 @@ private LocatorReader locator;
 		}
 		
 	}
+	
+	public void verifySourceName(String expected_SourceName) throws IOException{
+		
+		try {
+			
+			WaitForElementPresent(locator.getLocator("homePage.SourceName"), 60);
+			
+			Assert.assertEquals(getText(locator.getLocator("homePage.SourceName")), expected_SourceName);
+			
+			positiveComment("Correct source name is displayed.");
+			
+		} catch (Exception e) {
+			attachedToReport("error");
+			
+			negativeComment("Error Occurred: "+e.getMessage());
+			
+			Assert.assertTrue(false, e.getMessage());
+		}
+		
+	}
+	
+	public void verifyDestinationName(String expected_DestinationName) throws IOException{
+		
+		try {
+			
+			WaitForElementPresent(locator.getLocator("homePage.DestinationName"), 60);
+			
+			Assert.assertEquals(getText(locator.getLocator("homePage.DestinationName")), expected_DestinationName);
+			
+			positiveComment("Correct destination name is displayed.");
+			
+		} catch (Exception e) {
+			attachedToReport("error");
+			
+			negativeComment("Error Occurred: "+e.getMessage());
+			
+			Assert.assertTrue(false, e.getMessage());
+		}
+		
+	}
 }
