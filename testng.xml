@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maersk">
+ 
+	<test name="HappyPath">
+  <parameter name="deviceUDID" value="35ff88ab"/>
+  <parameter name="platformVersion" value="10"/>
+  <parameter name="appName_with_apk_extension" value="base.apk"/>
+    <classes>
+      <class name="com.maersk.util.DriverTestCase"/>
+      <class name="com.maersk.TestScripts.TestScriptMaersk">
+      <methods>
+      <include name="searchForShipment"></include>
+      
+      </methods>
+      </class>
+      </classes>
+  </test> <!-- HappyPath -->
+</suite> <!-- Maersk -->
+
+
+

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<font color='blue'>Start execution of Test Method 'searchForShipment'</font>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\landingScreen08-16-20-12-16-58.png" alt="" width='300' height='500'/>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on 'Schedule' tab.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\fromfield08-17-20-12-17-01.png" alt="" width='300' height='500'/>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on 'From' field.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\searchField108-17-20-12-17-03.png" alt="" width='300' height='500'/>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Enter 'Mundra' into search field.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\dropList108-17-20-12-17-08.png" alt="" width='300' height='500'/>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on 'Mundra, GUJARAT' location from list.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on 'To' field.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\searchField108-17-20-12-17-11.png" alt="" width='300' height='500'/>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Enter 'Jebel' into search field.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\dropList108-17-20-12-17-15.png" alt="" width='300' height='500'/>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on 'Jebel Ali' location from list.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on 'Search' button.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\sailings08-17-20-12-17-19.png" alt="" width='300' height='500'/>]]>
+    </line>
+    <line>
+      <![CDATA[Sailings count: Loading sailings for]]>
+    </line>
+  </reporter-output>
+  <suite name="Maersk" duration-ms="42979" started-at="2020-06-08T06:46:37Z" finished-at="2020-06-08T06:47:20Z">
+    <groups>
+    </groups>
+    <test name="HappyPath" duration-ms="42979" started-at="2020-06-08T06:46:37Z" finished-at="2020-06-08T06:47:20Z">
+      <class name="com.maersk.TestScripts.TestScriptMaersk">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="setUp" is-config="true" duration-ms="14980" started-at="2020-06-08T12:16:37Z" finished-at="2020-06-08T12:16:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[35ff88ab]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[base.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchForShipment()[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="searchForShipment" duration-ms="27975" started-at="2020-06-08T12:16:52Z" finished-at="2020-06-08T12:17:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>Start execution of Test Method 'searchForShipment'</font>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\landingScreen08-16-20-12-16-58.png" alt="" width='300' height='500'/>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on 'Schedule' tab.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\fromfield08-17-20-12-17-01.png" alt="" width='300' height='500'/>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on 'From' field.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\searchField108-17-20-12-17-03.png" alt="" width='300' height='500'/>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Enter 'Mundra' into search field.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\dropList108-17-20-12-17-08.png" alt="" width='300' height='500'/>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on 'Mundra, GUJARAT' location from list.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on 'To' field.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\searchField108-17-20-12-17-11.png" alt="" width='300' height='500'/>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Enter 'Jebel' into search field.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\dropList108-17-20-12-17-15.png" alt="" width='300' height='500'/>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on 'Jebel Ali' location from list.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on 'Search' button.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\sailings08-17-20-12-17-19.png" alt="" width='300' height='500'/>]]>
+            </line>
+            <line>
+              <![CDATA[Sailings count: Loading sailings for]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchForShipment -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2020-06-08T12:17:20Z" finished-at="2020-06-08T12:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchForShipment status=SUCCESS method=TestScriptMaersk.searchForShipment()[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb] output=<font color='blue'>Start execution of Test Method 'searchForShipment'</font>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.maersk.TestScripts.TestScriptMaersk@5f9d02cb]" name="aftertest" is-config="true" duration-ms="1" started-at="2020-06-08T12:17:20Z" finished-at="2020-06-08T12:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.maersk.TestScripts.TestScriptMaersk -->
+    </test> <!-- HappyPath -->
+  </suite> <!-- Maersk -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Maersk]">
+  <parameter name="platformVersion" value="10"/>
+  <parameter name="appName_with_apk_extension" value="base.apk"/>
+  <parameter name="deviceUDID" value="35ff88ab"/>
+  <test name="HappyPath(failed)">
+    <parameter name="platformVersion" value="10"/>
+    <parameter name="appName_with_apk_extension" value="base.apk"/>
+    <parameter name="deviceUDID" value="35ff88ab"/>
+    <classes>
+      <class name="com.maersk.TestScripts.TestScriptMaersk">
+        <methods>
+          <include name="aftertest"/>
+          <include name="setUp"/>
+          <include name="afterEachTestMethod"/>
+          <include name="searchForShipment"/>
+        </methods>
+      </class> <!-- com.maersk.TestScripts.TestScriptMaersk -->
+    </classes>
+  </test> <!-- HappyPath(failed) -->
+</suite> <!-- Failed suite [Maersk] -->

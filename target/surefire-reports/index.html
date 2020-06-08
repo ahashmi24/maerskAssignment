@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MonsantoTest">
+              <span class="suite-name border-failed">MonsantoTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MonsantoTest">
+                    <span>C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MonsantoTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MonsantoTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MonsantoTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MonsantoTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MonsantoTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MonsantoTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 3 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MonsantoTest" class="hide-methods failed suite-MonsantoTest"> (hide)</a> <!-- hide-methods failed suite-MonsantoTest -->
+                      <a href="#" panel-name="suite-MonsantoTest" class="show-methods failed suite-MonsantoTest"> (show)</a> <!-- show-methods failed suite-MonsantoTest -->
+                    </span>
+                    <div class="method-list-content failed suite-MonsantoTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MonsantoTest" title="com.monsanto.TestScripts.TestScriptFarmRise" hash-for-method="searchForKeyword">searchForKeyword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MonsantoTest" title="com.monsanto.TestScripts.TestScriptFarmRise" hash-for-method="tapOnLoadMoreSchemesButton">tapOnLoadMoreSchemesButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MonsantoTest" title="com.monsanto.TestScripts.TestScriptFarmRise" hash-for-method="verifyAppTimeAgainstSystemTime">verifyAppTimeAgainstSystemTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MonsantoTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MonsantoTest" class="hide-methods passed suite-MonsantoTest"> (hide)</a> <!-- hide-methods passed suite-MonsantoTest -->
+                      <a href="#" panel-name="suite-MonsantoTest" class="show-methods passed suite-MonsantoTest"> (show)</a> <!-- show-methods passed suite-MonsantoTest -->
+                    </span>
+                    <div class="method-list-content passed suite-MonsantoTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MonsantoTest" title="com.monsanto.TestScripts.TestScriptFarmRise" hash-for-method="navigateToGovernmentSchemesPage">navigateToGovernmentSchemesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MonsantoTest" title="com.monsanto.TestScripts.TestScriptFarmRise" hash-for-method="navigateWeatherAccessScreen">navigateWeatherAccessScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MonsantoTest" title="com.monsanto.TestScripts.TestScriptFarmRise" hash-for-method="onBoradingAction">onBoradingAction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MonsantoTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MonsantoTest" class="panel MonsantoTest">
+          <div class="suite-MonsantoTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.monsanto.TestScripts.TestScriptFarmRise</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForKeyword">
+                  </a> <!-- searchForKeyword -->
+                  <span class="method-name">searchForKeyword</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [false] but found [true]
+	at com.monsanto.PageHelper.FarmRisePageHelper.verifyTheResult(FarmRisePageHelper.java:370)
+	at com.monsanto.TestScripts.TestScriptFarmRise.searchForKeyword(TestScriptFarmRise.java:70)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+... Removed 29 stack frames<br/> java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.monsanto.PageHelper.FarmRisePageHelper.verifyTheResult(FarmRisePageHelper.java:370)
+	at com.monsanto.TestScripts.TestScriptFarmRise.searchForKeyword(TestScriptFarmRise.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertFalse(Assert.java:63)<br>org.testng.Assert.assertFalse(Assert.java:73)<br>com.monsanto.PageHelper.FarmRisePageHelper.verifyTheResult(FarmRisePageHelper.java:370)<br>com.monsanto.TestScripts.TestScriptFarmRise.searchForKeyword(TestScriptFarmRise.java:70)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br>org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br>org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tapOnLoadMoreSchemesButton">
+                  </a> <!-- tapOnLoadMoreSchemesButton -->
+                  <span class="method-name">tapOnLoadMoreSchemesButton</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [false] but found [true]
+	at com.monsanto.PageHelper.FarmRisePageHelper.scrollTillVisibleElement(FarmRisePageHelper.java:319)
+	at com.monsanto.TestScripts.TestScriptFarmRise.tapOnLoadMoreSchemesButton(TestScriptFarmRise.java:59)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+... Removed 29 stack frames<br/> java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.monsanto.PageHelper.FarmRisePageHelper.scrollTillVisibleElement(FarmRisePageHelper.java:319)
+	at com.monsanto.TestScripts.TestScriptFarmRise.tapOnLoadMoreSchemesButton(TestScriptFarmRise.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertFalse(Assert.java:63)<br>org.testng.Assert.assertFalse(Assert.java:73)<br>com.monsanto.PageHelper.FarmRisePageHelper.scrollTillVisibleElement(FarmRisePageHelper.java:319)<br>com.monsanto.TestScripts.TestScriptFarmRise.tapOnLoadMoreSchemesButton(TestScriptFarmRise.java:59)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br>org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br>org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppTimeAgainstSystemTime">
+                  </a> <!-- verifyAppTimeAgainstSystemTime -->
+                  <span class="method-name">verifyAppTimeAgainstSystemTime</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected [false] but found [true]
+	at com.monsanto.PageHelper.FarmRisePageHelper.scrollHorizontally(FarmRisePageHelper.java:258)
+	at com.monsanto.PageHelper.FarmRisePageHelper.verifyHours(FarmRisePageHelper.java:229)
+	at com.monsanto.TestScripts.TestScriptFarmRise.verifyAppTimeAgainstSystemTime(TestScriptFarmRise.java:39)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+... Removed 29 stack frames<br/> java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.monsanto.PageHelper.FarmRisePageHelper.scrollHorizontally(FarmRisePageHelper.java:258)
+	at com.monsanto.PageHelper.FarmRisePageHelper.verifyHours(FarmRisePageHelper.java:229)
+	at com.monsanto.TestScripts.TestScriptFarmRise.verifyAppTimeAgainstSystemTime(TestScriptFarmRise.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+"</b><br>org.testng.Assert.fail(Assert.java:94)<br>org.testng.Assert.failNotEquals(Assert.java:494)<br>org.testng.Assert.assertFalse(Assert.java:63)<br>org.testng.Assert.assertFalse(Assert.java:73)<br>com.monsanto.PageHelper.FarmRisePageHelper.scrollHorizontally(FarmRisePageHelper.java:258)<br>com.monsanto.PageHelper.FarmRisePageHelper.verifyHours(FarmRisePageHelper.java:229)<br>com.monsanto.TestScripts.TestScriptFarmRise.verifyAppTimeAgainstSystemTime(TestScriptFarmRise.java:39)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)<br>org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)<br>org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MonsantoTest-class-failed -->
+          <div class="suite-MonsantoTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.monsanto.TestScripts.TestScriptFarmRise</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateToGovernmentSchemesPage">
+                  </a> <!-- navigateToGovernmentSchemesPage -->
+                  <span class="method-name">navigateToGovernmentSchemesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigateWeatherAccessScreen">
+                  </a> <!-- navigateWeatherAccessScreen -->
+                  <span class="method-name">navigateWeatherAccessScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="onBoradingAction">
+                  </a> <!-- onBoradingAction -->
+                  <span class="method-name">onBoradingAction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MonsantoTest-class-passed -->
+        </div> <!-- panel MonsantoTest -->
+        <div panel-name="test-xml-MonsantoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;MonsantoTest&quot;&gt;
+  &lt;test name=&quot;HappyPath&quot;&gt;
+    &lt;parameter name=&quot;platformVersion&quot; value=&quot;6.0.1&quot;/&gt;
+    &lt;parameter name=&quot;appName_with_apk_extension&quot; value=&quot;base.apk&quot;/&gt;
+    &lt;parameter name=&quot;deviceUDID&quot; value=&quot;55e9b522&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.monsanto.util.DriverTestCase&quot;/&gt;
+      &lt;class name=&quot;com.monsanto.TestScripts.TestScriptFarmRise&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;onBoradingAction&quot;/&gt;
+          &lt;include name=&quot;navigateWeatherAccessScreen&quot;/&gt;
+          &lt;include name=&quot;verifyAppTimeAgainstSystemTime&quot;/&gt;
+          &lt;include name=&quot;navigateToGovernmentSchemesPage&quot;/&gt;
+          &lt;include name=&quot;tapOnLoadMoreSchemesButton&quot;/&gt;
+          &lt;include name=&quot;searchForKeyword&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.monsanto.TestScripts.TestScriptFarmRise --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HappyPath --&gt;
+&lt;/suite&gt; &lt;!-- MonsantoTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MonsantoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MonsantoTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HappyPath (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MonsantoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MonsantoTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MonsantoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MonsantoTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MonsantoTest');
+function tableData_MonsantoTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAppTimeAgainstSystemTime')
+data.setCell(0, 2, 'com.monsanto.TestScripts.TestScriptFarmRise')
+data.setCell(0, 3, 97877);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tapOnLoadMoreSchemesButton')
+data.setCell(1, 2, 'com.monsanto.TestScripts.TestScriptFarmRise')
+data.setCell(1, 3, 83615);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'onBoradingAction')
+data.setCell(2, 2, 'com.monsanto.TestScripts.TestScriptFarmRise')
+data.setCell(2, 3, 25834);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchForKeyword')
+data.setCell(3, 2, 'com.monsanto.TestScripts.TestScriptFarmRise')
+data.setCell(3, 3, 25317);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'navigateWeatherAccessScreen')
+data.setCell(4, 2, 'com.monsanto.TestScripts.TestScriptFarmRise')
+data.setCell(4, 3, 4784);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'navigateToGovernmentSchemesPage')
+data.setCell(5, 2, 'com.monsanto.TestScripts.TestScriptFarmRise')
+data.setCell(5, 3, 4290);
+window.suiteTableData['MonsantoTest']= { tableData: data, tableDiv: 'times-div-MonsantoTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-MonsantoTest">
+              </div> <!-- times-div-MonsantoTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MonsantoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MonsantoTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">navigateToGovernmentSchemesPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><font color='blue'>Start execution of Test Method 'navigateToGovernmentSchemesPage'</font></span>
+                <span class="reporter-method-output"><font color='green'>Clicked on 'Hamburger' icon.</font></span>
+                <span class="reporter-method-output"><font color='green'>'Government Schemes' link is displayed and tap on the same..</font></span>
+                <span class="reporter-method-output"><font color='green'>Successfully landed on 'Government Schemes' page..</font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">navigateWeatherAccessScreen</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><font color='blue'>Start execution of Test Method 'navigateWeatherAccessScreen'</font></span>
+                <span class="reporter-method-output"><font color='green'>Tap on Access Weather Details..</font></span>
+                <span class="reporter-method-output"><font color='green'>Successfully landed on 'Weather Details' screen..</font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">onBoradingAction</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><font color='blue'>Start execution of Test Method 'onBoradingAction'</font></span>
+                <span class="reporter-method-output"><font color='green'>Tap on 'English' langauge icon.</font></span>
+                <span class="reporter-method-output"><font color='green'>Tap on 'Proceed' button.</font></span>
+                <span class="reporter-method-output"><font color='green'>Tap on 'Agreement & Conditions' button.</font></span>
+                <span class="reporter-method-output"><font color='green'>Home icon is displayed and tap on OK icon.</font></span>
+                <span class="reporter-method-output"><font color='green'>Mandi icon is displayed and tap on OK icon.</font></span>
+                <span class="reporter-method-output"><font color='green'>Agronomy icon is displayed and tap on OK icon.</font></span>
+                <span class="reporter-method-output"><font color='green'>Chat icon is displayed and tap on OK icon.</font></span>
+                <span class="reporter-method-output"><font color='green'>Hamburger icon is displayed and tap on OK icon.</font></span>
+                <span class="reporter-method-output"><font color='green'>Tap on Home icon..</font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tapOnLoadMoreSchemesButton</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><font color='blue'>Start execution of Test Method 'tapOnLoadMoreSchemesButton'</font></span>
+                <span class="reporter-method-output"><font color='red'>'Load More Schemes' button is not present on page..</font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAppTimeAgainstSystemTime</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><font color='blue'>Start execution of Test Method 'verifyAppTimeAgainstSystemTime'</font></span>
+                <span class="reporter-method-output"><font color='green'>App time: 1 AM</font></span>
+                <span class="reporter-method-output"><font color='green'>End time to scroll: 12 AM</font></span>
+                <span class="reporter-method-output"><font color='red'>Unable to perform horizontal scroll on temperature carousal due to error: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-CU870VSL', ip: '192.168.31.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {adbPort: 5038, app: C:\Users\Ahmer\Centralize\A..., appActivity: com.climate.farmrise.Splash..., appPackage: com.climate.farmrise, appWaitActivity: SplashActivity, SplashActiv..., appWaitPackage: com.climate.farmrise, databaseEnabled: false, desired: {adbPort: 5038, app: C:\Users\Ahmer\Centralize\A..., appWaitActivity: SplashActivity, SplashActiv..., deviceName: ONE E1003, noReset: false, platformName: Android, platformVersion: 6.0.1, udid: 55e9b522}, deviceManufacturer: OnePlus, deviceModel: ONE E1003, deviceName: 55e9b522, deviceScreenSize: 1080x1920, deviceUDID: 55e9b522, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: LINUX, platformVersion: 6.0.1, takesScreenshot: true, udid: 55e9b522, warnings: {}, webStorageEnabled: false}
+Session ID: 6d28dc6e-8969-495c-9f05-2f1e2144267d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId("com.climate.farmrise:id/hourlyWeatherForecastLayout")).setAsHorizontalList().scrollIntoView(new UiSelector().text("12 AM"))}</font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchForKeyword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><font color='blue'>Start execution of Test Method 'searchForKeyword'</font></span>
+                <span class="reporter-method-output"><font color='green'>Tap on search icon..</font></span>
+                <span class="reporter-method-output"><font color='green'>kisan keyword is entered into search text field..</font></span>
+                <span class="reporter-method-output"><font color='green'>Tap on enter from keyboard..</font></span>
+                <span class="reporter-method-output"><font color='red'>No item is displayed...</font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MonsantoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MonsantoTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monsanto.TestScripts.TestScriptFarmRise</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(55e9b522, 6.0.1, base.apk)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">onBoradingAction</span>
+                <span class="method-start">60055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=onBoradingAction status=SUCCESS method=TestScriptFarmRise.onBoradingAction()[pri:0,...)</span>
+                <span class="method-start">85890 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">navigateWeatherAccessScreen</span>
+                <span class="method-start">85893 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=navigateWeatherAccessScreen status=SUCCESS method=TestScriptFarmRise.navigateWeathe...)</span>
+                <span class="method-start">90679 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyAppTimeAgainstSystemTime</span>
+                <span class="method-start">90681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=verifyAppTimeAgainstSystemTime status=FAILURE method=TestScriptFarmRise.verifyAppTi...)</span>
+                <span class="method-start">188563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">navigateToGovernmentSchemesPage</span>
+                <span class="method-start">190554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=navigateToGovernmentSchemesPage status=SUCCESS method=TestScriptFarmRise.navigateTo...)</span>
+                <span class="method-start">194848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tapOnLoadMoreSchemesButton</span>
+                <span class="method-start">194849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=tapOnLoadMoreSchemesButton status=FAILURE method=TestScriptFarmRise.tapOnLoadMoreSc...)</span>
+                <span class="method-start">278465 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchForKeyword</span>
+                <span class="method-start">281606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=searchForKeyword status=FAILURE method=TestScriptFarmRise.searchForKeyword()[pri:0,...)</span>
+                <span class="method-start">306923 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">aftertest</span>
+                <span class="method-start">308446 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

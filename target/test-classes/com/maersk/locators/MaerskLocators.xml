@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Locators>
+
+ 	<homePage>
+ 		
+ 		<StartLabel><![CDATA[id=com.maersk.trackandtrace.maerskline:id/label_start_tracking]]></StartLabel>
+    	<scheduleTab><![CDATA[id=android:id/icon]]></scheduleTab>
+    	<FromField><![CDATA[id=com.maersk.trackandtrace.maerskline:id/from_city_field]]></FromField>	
+    	<SearchField><![CDATA[id=com.maersk.trackandtrace.maerskline:id/search]]></SearchField>
+    	<AutoDropList><![CDATA[id=com.maersk.trackandtrace.maerskline:id/text]]></AutoDropList>
+    	<ToField><![CDATA[id=com.maersk.trackandtrace.maerskline:id/to_city_field]]></ToField>
+    	<SearchButton><![CDATA[id=com.maersk.trackandtrace.maerskline:id/point_to_point_search]]></SearchButton>
+    	<SailingsCount><![CDATA[id=com.maersk.trackandtrace.maerskline:id/header]]></SailingsCount>
+    	<SourceName><![CDATA[id=com.maersk.trackandtrace.maerskline:id/point_to_point_from]]></SourceName>
+    	<DestinationName><![CDATA[id=com.maersk.trackandtrace.maerskline:id/point_to_point_to]]></DestinationName>
+    	<ShipNames><![CDATA[id=com.maersk.trackandtrace.maerskline:id/item_vessel_voyage]]></ShipNames>
+    	
+    	
+ 	</homePage>
+
+</Locators>

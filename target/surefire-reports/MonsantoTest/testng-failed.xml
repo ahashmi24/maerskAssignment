@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [MonsantoTest]">
+  <parameter name="platformVersion" value="6.0.1"/>
+  <parameter name="appName_with_apk_extension" value="base.apk"/>
+  <parameter name="deviceUDID" value="55e9b522"/>
+  <test name="HappyPath(failed)">
+    <parameter name="platformVersion" value="6.0.1"/>
+    <parameter name="appName_with_apk_extension" value="base.apk"/>
+    <parameter name="deviceUDID" value="55e9b522"/>
+    <classes>
+      <class name="com.monsanto.TestScripts.TestScriptFarmRise">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="onBoradingAction"/>
+          <include name="setUp"/>
+          <include name="searchForKeyword"/>
+          <include name="navigateToGovernmentSchemesPage"/>
+          <include name="navigateWeatherAccessScreen"/>
+          <include name="aftertest"/>
+          <include name="tapOnLoadMoreSchemesButton"/>
+          <include name="verifyAppTimeAgainstSystemTime"/>
+        </methods>
+      </class> <!-- com.monsanto.TestScripts.TestScriptFarmRise -->
+    </classes>
+  </test> <!-- HappyPath(failed) -->
+</suite> <!-- Failed suite [MonsantoTest] -->

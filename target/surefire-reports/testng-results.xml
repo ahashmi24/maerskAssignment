@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="6" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[<font color='blue'>Start execution of Test Method 'onBoradingAction'</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on 'English' langauge icon.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on 'Proceed' button.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on 'Agreement & Conditions' button.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Home icon is displayed and tap on OK icon.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Mandi icon is displayed and tap on OK icon.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Agronomy icon is displayed and tap on OK icon.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Chat icon is displayed and tap on OK icon.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Hamburger icon is displayed and tap on OK icon.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on Home icon..</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Start execution of Test Method 'navigateWeatherAccessScreen'</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on Access Weather Details..</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Successfully landed on 'Weather Details' screen..</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Start execution of Test Method 'verifyAppTimeAgainstSystemTime'</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>App time: 1 AM</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>End time to scroll: 12 AM</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='red'>Unable to perform horizontal scroll on temperature carousal due to error: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-CU870VSL', ip: '192.168.31.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {adbPort: 5038, app: C:\Users\Ahmer\Centralize\A..., appActivity: com.climate.farmrise.Splash..., appPackage: com.climate.farmrise, appWaitActivity: SplashActivity, SplashActiv..., appWaitPackage: com.climate.farmrise, databaseEnabled: false, desired: {adbPort: 5038, app: C:\Users\Ahmer\Centralize\A..., appWaitActivity: SplashActivity, SplashActiv..., deviceName: ONE E1003, noReset: false, platformName: Android, platformVersion: 6.0.1, udid: 55e9b522}, deviceManufacturer: OnePlus, deviceModel: ONE E1003, deviceName: 55e9b522, deviceScreenSize: 1080x1920, deviceUDID: 55e9b522, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: LINUX, platformVersion: 6.0.1, takesScreenshot: true, udid: 55e9b522, warnings: {}, webStorageEnabled: false}
+Session ID: 6d28dc6e-8969-495c-9f05-2f1e2144267d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId("com.climate.farmrise:id/hourlyWeatherForecastLayout")).setAsHorizontalList().scrollIntoView(new UiSelector().text("12 AM"))}</font>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\verifyAppTimeAgainstSystemTime.png" alt="" width='300' height='500'/>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Start execution of Test Method 'navigateToGovernmentSchemesPage'</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Clicked on 'Hamburger' icon.</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>'Government Schemes' link is displayed and tap on the same..</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Successfully landed on 'Government Schemes' page..</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Start execution of Test Method 'tapOnLoadMoreSchemesButton'</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='red'>'Load More Schemes' button is not present on page..</font>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\tapOnLoadMoreSchemesButton.png" alt="" width='300' height='500'/>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='blue'>Start execution of Test Method 'searchForKeyword'</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on search icon..</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>kisan keyword is entered into search text field..</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Tap on enter from keyboard..</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='red'>No item is displayed...</font>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\searchForKeyword.png" alt="" width='300' height='500'/>]]>
+    </line>
+  </reporter-output>
+  <suite name="MonsantoTest" duration-ms="308559" started-at="2018-12-15T18:35:19Z" finished-at="2018-12-15T18:40:27Z">
+    <groups>
+    </groups>
+    <test name="HappyPath" duration-ms="308559" started-at="2018-12-15T18:35:19Z" finished-at="2018-12-15T18:40:27Z">
+      <class name="com.monsanto.TestScripts.TestScriptFarmRise">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="setUp" is-config="true" duration-ms="60047" started-at="2018-12-16T00:05:19Z" finished-at="2018-12-16T00:06:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[55e9b522]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6.0.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[base.apk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="onBoradingAction()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="onBoradingAction" duration-ms="25834" started-at="2018-12-16T00:06:19Z" finished-at="2018-12-16T00:06:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>Start execution of Test Method 'onBoradingAction'</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on 'English' langauge icon.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on 'Proceed' button.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on 'Agreement & Conditions' button.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Home icon is displayed and tap on OK icon.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Mandi icon is displayed and tap on OK icon.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Agronomy icon is displayed and tap on OK icon.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Chat icon is displayed and tap on OK icon.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Hamburger icon is displayed and tap on OK icon.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on Home icon..</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- onBoradingAction -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-12-16T00:06:45Z" finished-at="2018-12-16T00:06:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=onBoradingAction status=SUCCESS method=TestScriptFarmRise.onBoradingAction()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203] output=<font color='blue'>Start execution of Test Method 'onBoradingAction'</font>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="navigateWeatherAccessScreen()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="navigateWeatherAccessScreen" duration-ms="4784" started-at="2018-12-16T00:06:45Z" depends-on-methods="com.monsanto.TestScripts.TestScriptFarmRise.onBoradingAction" finished-at="2018-12-16T00:06:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>Start execution of Test Method 'navigateWeatherAccessScreen'</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on Access Weather Details..</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Successfully landed on 'Weather Details' screen..</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateWeatherAccessScreen -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="afterEachTestMethod" is-config="true" duration-ms="1" started-at="2018-12-16T00:06:50Z" finished-at="2018-12-16T00:06:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateWeatherAccessScreen status=SUCCESS method=TestScriptFarmRise.navigateWeatherAccessScreen()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203] output=<font color='blue'>Start execution of Test Method 'navigateWeatherAccessScreen'</font>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="FAIL" signature="verifyAppTimeAgainstSystemTime()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="verifyAppTimeAgainstSystemTime" duration-ms="97877" started-at="2018-12-16T00:06:50Z" depends-on-methods="com.monsanto.TestScripts.TestScriptFarmRise.navigateWeatherAccessScreen" finished-at="2018-12-16T00:08:27Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.monsanto.PageHelper.FarmRisePageHelper.scrollHorizontally(FarmRisePageHelper.java:258)
+	at com.monsanto.PageHelper.FarmRisePageHelper.verifyHours(FarmRisePageHelper.java:229)
+	at com.monsanto.TestScripts.TestScriptFarmRise.verifyAppTimeAgainstSystemTime(TestScriptFarmRise.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>Start execution of Test Method 'verifyAppTimeAgainstSystemTime'</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>App time: 1 AM</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>End time to scroll: 12 AM</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='red'>Unable to perform horizontal scroll on temperature carousal due to error: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'LAPTOP-CU870VSL', ip: '192.168.31.190', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {adbPort: 5038, app: C:\Users\Ahmer\Centralize\A..., appActivity: com.climate.farmrise.Splash..., appPackage: com.climate.farmrise, appWaitActivity: SplashActivity, SplashActiv..., appWaitPackage: com.climate.farmrise, databaseEnabled: false, desired: {adbPort: 5038, app: C:\Users\Ahmer\Centralize\A..., appWaitActivity: SplashActivity, SplashActiv..., deviceName: ONE E1003, noReset: false, platformName: Android, platformVersion: 6.0.1, udid: 55e9b522}, deviceManufacturer: OnePlus, deviceModel: ONE E1003, deviceName: 55e9b522, deviceScreenSize: 1080x1920, deviceUDID: 55e9b522, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: LINUX, platformVersion: 6.0.1, takesScreenshot: true, udid: 55e9b522, warnings: {}, webStorageEnabled: false}
+Session ID: 6d28dc6e-8969-495c-9f05-2f1e2144267d
+*** Element info: {Using=-android uiautomator, value=new UiScrollable(new UiSelector().resourceId("com.climate.farmrise:id/hourlyWeatherForecastLayout")).setAsHorizontalList().scrollIntoView(new UiSelector().text("12 AM"))}</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAppTimeAgainstSystemTime -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="afterEachTestMethod" is-config="true" duration-ms="1991" started-at="2018-12-16T00:08:27Z" finished-at="2018-12-16T00:08:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAppTimeAgainstSystemTime status=FAILURE method=TestScriptFarmRise.verifyAppTimeAgainstSystemTime()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203] output=<font color='blue'>Start execution of Test Method 'verifyAppTimeAgainstSystemTime'</font>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\verifyAppTimeAgainstSystemTime.png" alt="" width='300' height='500'/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="navigateToGovernmentSchemesPage()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="navigateToGovernmentSchemesPage" duration-ms="4290" started-at="2018-12-16T00:08:29Z" depends-on-methods="com.monsanto.TestScripts.TestScriptFarmRise.navigateWeatherAccessScreen" finished-at="2018-12-16T00:08:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>Start execution of Test Method 'navigateToGovernmentSchemesPage'</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Clicked on 'Hamburger' icon.</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>'Government Schemes' link is displayed and tap on the same..</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Successfully landed on 'Government Schemes' page..</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToGovernmentSchemesPage -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2018-12-16T00:08:34Z" finished-at="2018-12-16T00:08:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigateToGovernmentSchemesPage status=SUCCESS method=TestScriptFarmRise.navigateToGovernmentSchemesPage()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203] output=<font color='blue'>Start execution of Test Method 'navigateToGovernmentSchemesPage'</font>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="FAIL" signature="tapOnLoadMoreSchemesButton()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="tapOnLoadMoreSchemesButton" duration-ms="83615" started-at="2018-12-16T00:08:34Z" depends-on-methods="com.monsanto.TestScripts.TestScriptFarmRise.navigateToGovernmentSchemesPage" finished-at="2018-12-16T00:09:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.monsanto.PageHelper.FarmRisePageHelper.scrollTillVisibleElement(FarmRisePageHelper.java:319)
+	at com.monsanto.TestScripts.TestScriptFarmRise.tapOnLoadMoreSchemesButton(TestScriptFarmRise.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>Start execution of Test Method 'tapOnLoadMoreSchemesButton'</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='red'>'Load More Schemes' button is not present on page..</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tapOnLoadMoreSchemesButton -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="afterEachTestMethod" is-config="true" duration-ms="3140" started-at="2018-12-16T00:09:57Z" finished-at="2018-12-16T00:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tapOnLoadMoreSchemesButton status=FAILURE method=TestScriptFarmRise.tapOnLoadMoreSchemesButton()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203] output=<font color='blue'>Start execution of Test Method 'tapOnLoadMoreSchemesButton'</font>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\tapOnLoadMoreSchemesButton.png" alt="" width='300' height='500'/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="FAIL" signature="searchForKeyword()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="searchForKeyword" duration-ms="25317" started-at="2018-12-16T00:10:00Z" depends-on-methods="com.monsanto.TestScripts.TestScriptFarmRise.navigateToGovernmentSchemesPage" finished-at="2018-12-16T00:10:26Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at com.monsanto.PageHelper.FarmRisePageHelper.verifyTheResult(FarmRisePageHelper.java:370)
+	at com.monsanto.TestScripts.TestScriptFarmRise.searchForKeyword(TestScriptFarmRise.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='blue'>Start execution of Test Method 'searchForKeyword'</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on search icon..</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>kisan keyword is entered into search text field..</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Tap on enter from keyboard..</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='red'>No item is displayed...</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchForKeyword -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="afterEachTestMethod" is-config="true" duration-ms="1523" started-at="2018-12-16T00:10:26Z" finished-at="2018-12-16T00:10:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchForKeyword status=FAILURE method=TestScriptFarmRise.searchForKeyword()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203] output=<font color='blue'>Start execution of Test Method 'searchForKeyword'</font>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="file://C:\Users\Ahmer\Centralize\Appium\MonsantoAssignment\attachedScreenshot\searchForKeyword.png" alt="" width='300' height='500'/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.monsanto.TestScripts.TestScriptFarmRise@c038203]" name="aftertest" is-config="true" duration-ms="103" started-at="2018-12-16T00:10:27Z" finished-at="2018-12-16T00:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- com.monsanto.TestScripts.TestScriptFarmRise -->
+    </test> <!-- HappyPath -->
+  </suite> <!-- MonsantoTest -->
+</testng-results>
